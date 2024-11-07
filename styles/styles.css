@@ -19,6 +19,9 @@
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
 
+  /* demo colors */
+  --background-grey: #f4f2f3;
+
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
   --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
@@ -254,4 +257,14 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+main .section.card p {
+  padding: 2rem 10rem;
+  background-color: var(--background-color);
+}
+
+/* Themes */
+body.grey {
+  background-color: var(--background-grey);
 }
