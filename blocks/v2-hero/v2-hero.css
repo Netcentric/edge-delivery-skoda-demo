@@ -1,0 +1,11 @@
+/* stylelint-disable selector-class-pattern */
+.section .v2-hero-wrapper {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.v2-hero__container, .v2-hero__container img {
+  width: 100%;
+}
