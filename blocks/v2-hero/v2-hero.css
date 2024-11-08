@@ -6,6 +6,18 @@
   max-width: 100%;
 }
 
-.v2-hero__container, .v2-hero__container img {
+.v2-hero__container {
+  position: relative;
+  overflow: hidden;
+}
+
+.v2-hero__img-container, .v2-hero__img-container img {
   width: 100%;
+}
+
+.v2-hero__title {
+  position: absolute;
+  bottom: 1rem;
+  left: 3rem;
+  color: var(--background-color);
 }
