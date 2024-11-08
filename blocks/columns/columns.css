@@ -11,6 +11,14 @@
   order: 1;
 }
 
+.columns.bg-white > div {
+  background-color: var(--background-color);
+}
+
+.columns > div > div:last-child {
+  padding: 0 2rem 1rem;
+}
+
 .columns > div > .columns-img-col {
   order: 0;
 }

@@ -5,14 +5,46 @@
   justify-content: center;
   margin-bottom: 2rem;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 .cards-multitab__card-container {
   display: flex;
   gap: 2rem;
   justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.cards-multitab__card {
+  background-color: var(--background-color);
+  width: 100%;
+}
+
+.cards-multitab__card img {
+  width: 100%;
+}
+
+.cards-multitab__card > div:last-child {
+  padding: 0 2rem 1rem;
 }
 
 .cards-multitab__card--disabled {
   display: none;
+}
+
+@media (width >= 900px) {
+  .cards-multitab__card-container {
+    gap: 1rem;
+  }
+
+  .cards-multitab__card, .cards-multitab__card img {
+    width: auto;
+  }
+}
+
+@media (width >= 1150px) {
+  .cards-multitab__card-container {
+    flex-wrap: nowrap;
+  }
 }

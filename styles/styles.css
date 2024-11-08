@@ -260,8 +260,14 @@ main .section.highlight {
 }
 
 main .section.card p {
-  padding: 2rem 10rem;
+  padding: 2rem;
   background-color: var(--background-color);
+}
+
+@media (width >= 900px) {
+  main .section.card p {
+    padding: 2rem 10rem;
+  }
 }
 
 /* Themes */
